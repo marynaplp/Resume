@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<!-- MAIN CONTAINER -->
+		<div id="main_container">
+      <!-- HEADER -->
+      <div id="header">
+        <!-- LOGOTYPE/NAME -->
+        <div class="header_logotype_container">
+          <h1 class="logotype_name">Maryna <span class="purple">Pylypchenko</span></h1>
+          <h2 class="logotype_occupation">Frontend Developer</h2>
+        </div>
+        <!-- MAIN MENU -->
+        <div class="header_menu_container">
+          <ul class="download_print_buttons horizontal_list">
+            <li><a href="#"><span class="icon entypo-download"></span>Download CV</a></li>
+            <li><a href="#"><span class="icon entypo-print"></span>Print CV</a></li>
+          </ul>
+          <div class="clear"></div>
+          <ul class="header_menu horizontal_list">
+            <li><a class="no_border purple" href="#profile">Profile</a></li>
+            <li><a class +href="#education">Education</a></li>
+        
+            <li><a href="#work experience">Work Experience</a></li>
+       
+            <li><a href="#hard skills">Hard Skills</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- LEFT COL -->
+      <div id="left_col">
+        
+          <div class="profile_picture">
+          <img src="images/unnamed.jpg" alt="profile picture"> 
+       </div>
+        <div class="hello_content">
+          <h2>Hello!</h2>
+          <p>Seeking for a Front-End Developer position in a fast growing
+            organization to utilize my experience in software
+            development. Coming with skills in computer science in addition to excellent
+            communication skills</p>
+        </div>
+        <div class="contact_details_content">
+          <h2>Contact details</h2>
+          <p class="purple">Phone:</p>
+          <p>+380967743806</p>
+          <p class="purple">Email:</p>
+          <p>maryna.pylypchenko@gmail.com</p>
+        
+        </div>
+        <a href="mailto:maryna.pylypchenko@gmail.com" class="send_message_button">
+          <span class="cut1"></span>
+          <span class="cut2"></span>
+          <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+        </a>
+        <div class="get_social_content">
+          <h2>Get social</h2>
+          <ul class="social_icons horizontal_list">
+            <li><a class="facebook" href="https://www.facebook.com/maryna.pylypchenko"><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/maryna-pylypchenko-7a23971b1/"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- PROFILE CONTENT -->
+      <div id="content_container">				
+        <div class="block">
+          <h2 id="profile">Highlights of qualifications</h2>
+         <ul><li>1+ years software engineering experience</li>
+          <li>Strong communication skills;</li>
+          <li> Desire to learn, passion for personal and professional development</li>
+          <li>Ukrainian and Russian languages are native; advanced level in English</li>
+         </ul>
+        <div class="block">
+          <h2 id="education">Education</h2>
+          <p>
+            <strong>Jan 2020 - Aug 2020</strong> Gromcode, 
+            Educational Institution, Kyiv,Ukraine.</p>				
+        </div>
+       
+        <div class="block">
+          <h2 id="work experience">Work experience</h2>
+          <p>Front-End developer, Softemy</p>
+          <ul>
+            <li> Design and deploy high performance, flexible, data driven user interfaces to clients using
+              HTML (JSX), CSS (SASS), React, Next.js Redux, Webpack, Babel, EsLint, etc; 
+            </li>
+            <li>Creation of responsive applications;
+            </li>
+            <li>Using the built-in React toolkit to create user-centric functions;
+            </li>
+            <li>Linking designs and wireframes with application code;
+            </li>
+            <li>Collaboration on the SСRUM methodology (using Trello);
+            </li>
+          </ul>
+        </div>
+       
+       
+      </div>
+      <div class="clear"></div> 
+      <div class="block">
+        <h2 id="hard skills"> Hard Skills</h2>
+      <div class="browser-content add-overflow">
+        <!-- HTML -->
+        <div id="html" class="row" onclick=toggleContent('#html')>
+          <p>
+            <span class="heading">HTML</span>
+          </p>
+          <div class="stars" >
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div id="html-trigger" class="arrow">
+            <i class="fa fa-arrow-right rotate0"></i>
+          </div>
+        </div>
+        <!-- HTML Hidden Content -->
+        <div id="html-content" class="hidden-content item-content">
+          <a href="https://github.com/marynaplp/FirstProject">Website page-HTML/CSS</a>
+        </div>
+        
+        <!-- CSS -->
+        <div id="css" class="row" onclick=toggleContent('#css')>
+          <p>
+            <span class="heading">CSS</span>
+          </p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <a id="css-trigger" class="arrow">
+            <i class="fa fa-arrow-right rotate0"></i>
+          </a>
+        </div>
+            <!-- CSS Hidden Content -->
+        <div id="css-content" class="hidden-content item-content">
+          <a  href="https://github.com/marynaplp/FirstProject">Website page-HTML/CSS</a>
+        </div>
+        
+        <!-- JavaScript -->
+        <div id="javascript" class="row" onclick=toggleContent('#javascript')>
+          <p>
+            <span class="heading">JavaScript</span>
+          </p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+
+          </div>
+          <div id="javascript-trigger" class="arrow">
+            <i class="fa fa-arrow-right rotate0"></i>
+          </div>
+        </div>
+          <!-- JavaScript Hidden Content -->
+        <div id="javascript-content" class="hidden-content item-content">
+          <a href="https://github.com/marynaplp/CalendarProject">Calendar Project</a>
+        </div>
+        
+        <!-- Git -->
+        <div id="git" class="row" onclick=toggleContent('#git')>
+          <p>
+            <span class="heading">Git</span>
+          </p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div id="git-trigger" class="arrow">
+            <i class="fa fa-arrow-right rotate0"></i>
+          </div>
+        </div>
+          <!-- Git Hidden Content -->
+        <div id="git-content" class="hidden-content item-content">
+        </div>
+        
+      
+        <!-- React -->
+        <div id="react" class="row" onclick=toggleContent('#react')>
+          <p>
+            <span class="heading">React</span>
+          </p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <div id="react-trigger" class="arrow">
+            <i class="fa fa-arrow-right rotate0"></i>
+          </div>
+        </div>
+          <!-- React Hidden Content -->
+        <div id="react-content" class="hidden-content item-content">
+          <a href="https://github.com/marynaplp/airoport_project">Airport Project</a>
+        </div>
+        
+      </div>
+      </div>
+      <!-- FOOTER -->
+      <div id="footer">
+        <p class="footer_name">Maryna CV 2021</p>
+      </div>
+		</div>
+    
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
